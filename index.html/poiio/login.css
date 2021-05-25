@@ -1,0 +1,123 @@
+{
+	padding:0;
+	margin:0;
+}
+body{	
+background-image: url('login.JPG');
+background-position:center;
+background-size:cover;
+font-family:sans-serif;
+margin-top:40px;
+background-repeat:no-repeat;
+}
+.login{
+	width:800px;
+	background-color:rgb(0,0,0,0.6);
+	margin:auto;
+	color:#ffffff;
+	padding:10px 0px 10px 0px;
+	text-align:center;
+	border-radius:15px 15px 0px 0px;
+}
+.main{
+	width:800px;
+	background-color:rgb(0,0,0,0.5);
+	margin:auto;
+}
+form{
+padding:10px;	
+}
+.name{
+	margin-left:25px;
+	margin-top:30px;
+	width:125px;
+	color:white;
+	font-size:18px;
+	font-weight:1000;
+	
+}
+.firstname{
+	position:relative;
+	line-height:40px;
+	border-raduis:6px;
+	font-size:16px;
+	padding:0 22px;
+}
+.lastname{
+	position:relative;
+	line-height:40px;
+	border-raduis:6px;
+	font-size:16px;
+	padding:0 22px;
+	color:#555;
+	left:40px;
+	
+}
+.company{
+	position:relative;
+	line-height:40px;
+	border-raduis:6px;
+	font-size:16px;
+	padding:0 22px;
+	color:#555;
+	width:600px;
+}	
+.email{
+position:relative;
+	line-height:40px;
+	border-raduis:6px;
+	font-size:16px;
+	padding:0 22px;
+	color:#555;
+	width:600px;
+}	
+.code{
+position:relative;
+	line-height:40px;
+	border-raduis:6px;
+	font-size:16px;
+	padding:0 22px;
+	color:#555;	
+}
+	.number{
+		position:relative;
+	line-height:30px;
+	border-raduis:6px;
+	font-size:16px;
+	padding:0 22px;
+	color:#555;	
+	left:30px;	
+	}
+	.id{
+		position:relative;
+	line-height:40px;
+	border-raduis:6px;
+	font-size:16px;
+	padding:0 22px;
+	color:#555;			
+	}
+	.option{
+		position:relative;
+		left: 20px;
+		width:300px;
+	line-height:30px;
+	border-raduis:6px;
+	font-size:16px;
+	padding:0 22px;
+	color:#555;	
+	outline:none;
+overflow:hidden;		
+	}
+	button{
+	background-color:blue;
+display:block;
+margin:20px 0px 0px 20px;
+text-align: center;
+border-raduis: 6px;
+border:2px solid blue;
+padding:14px 110px;
+outline:none;
+color:white;
+cursor;pointer;
+font-size:16px;	
+	}

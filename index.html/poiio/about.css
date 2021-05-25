@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-weight: century Gothic;
+    background: url('Sea.jpg') no-repeat fixed ;
+    background-size: cover;
+    background-position: center;
+}
+.container{
+    height: 75vh;
+    width: 30%;
+    background: rgba(0, 0,0, 0.6);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 0 20px;
+}
+.img{
+    height: 70px;
+    width: 70px;
+    background: url(background.jpeg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50px;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.container h1{
+    color: white; 
+    margin-top: 50px;
+}
+.container p{
+    color: white;
+    margin-top: 60px;
+    font-size: 120%;
+}
+.btn{
+    background: no-repeat;
+    outline: none;
+    border: 1px solid white;
+    color: white;
+    width: 50%;
+    padding: 7px 15px;
+    font-size: large;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+.btn:hover{
+    background: white;
+    color: black;
+
+}
